@@ -6,4 +6,6 @@
 -- 1. Open SQLite in terminal: sqlite3 social.db
 -- 2. Load this script: .read tasks.sql
 -- 3. Exit SQLite: .exit
+SELECT username, followed, follower FROM 
 
+LIMIT 10

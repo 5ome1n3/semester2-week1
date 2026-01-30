@@ -12,4 +12,4 @@
 
 -- write your sql code here
 
-SELECT * from countries;
+SELECT Country, LiteracyPercent from countries ORDER BY LiteracyPercent DESC;
